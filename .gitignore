@@ -23,6 +23,11 @@ _testmain.go
 *.test
 *.prof
 
+# specific to this project
 bin/*
 pkg/*
 src/*
+
+# ignore swp files from vim
+*.swp
+
