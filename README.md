@@ -2,7 +2,9 @@ Structure
 =========
 This repo is the top level repo. Compile, build, run tools etc from this repo. Project code should not be in this repo. 
 
-Each "module" ( >= 1 package) will be a file under this parent repo. Changes to the modules are invisible to this parent repo.Fetch each module (stored in its own git repo) using go get. See setup for an example of this. 
+Each "module" ( >= 1 package) will be a file under this parent repo. Changes to the modules are invisible to this parent repo. 
+
+You can update the modules to the master branch using the updateOpinionated script. If your local copy of that repo is not on the master branch it will not be updated (ie your current code won't get overwritten). You can always do the updates manually with git from inside each module.
 
 
 Setup
@@ -10,10 +12,11 @@ Setup
 
 To clone repo: git clone https://github.com/opinionated/opinionated
 
-The first time you clone this repo run: .setEnviroment and . setup.sh
+The first time you clone this repo run: . setEnviroment and . setup.sh
 
-Working with modules
+Working with code
 =========
+Always run code from this level. There are a couple of scripts that may be helpful for managing the code.  
 
 ####Working with a repo
 1) get module using go-get (see setup for example)  
