@@ -1,3 +1,30 @@
+TODO
+=========
+scheduler:
+* adjust scheduler timing to space tests better, look more human
+* make logs and error handling  
+* cleanup and documentation
+
+fetcher/scraper:
+* make sneakier scraping requests
+   * send cookies along with scraper
+   * look into packages to fake the browser out (maybe hook into JS, spoof ip etc)
+* make rss add only newly found articles to the scheduler
+* logs and error handling
+* cleanup and documentation
+
+pipeline:
+* decide on final signature
+   * make error channels
+* make test sets
+* cleanup and documentation
+
+top level (this repo):
+* tools to help with git committing without needing to navigate down
+* test scripts to help with integration
+
+
+
 Structure 
 =========
 This repo is the top level repo. Compile, build, run tools etc from this repo. Project code should not be in this repo. 
