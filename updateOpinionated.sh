@@ -9,3 +9,5 @@ go get -u -f ...scraper
 go get -u -f ...fetcher
 
 go get -u -f ...analyzer-core
+go get -u -f ...alchemy
+go get -u -f ...pipeline
