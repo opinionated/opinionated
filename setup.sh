@@ -8,6 +8,9 @@ mkdir pkg
 go get github.com/opinionated/scraper-core
 go get github.com/opinionated/scheduler
 go get github.com/opinionated/utils
+go get github.com/opinionated/analyzer-core/analyzer
+go get github.com/opinionated/analyzer-core/alchemy
+go get github.com/opinionated/pipeline/pipeline
 
 # get all the dependancies
 go get github.com/golang/mock/mockgen
