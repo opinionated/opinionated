@@ -1,5 +1,7 @@
 TODO
 =========
+Check repo specific issues for more detailed / up to date TODO lists
+
 scheduler:
 * adjust scheduler timing to space tests better, look more human
 * make logs and error handling  
