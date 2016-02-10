@@ -1,5 +1,6 @@
 # only run this script when you are setting up the repo
 
+. setEnvironment.sh
 mkdir src
 mkdir bin
 mkdir pkg
@@ -8,13 +9,9 @@ mkdir pkg
 go get github.com/opinionated/scraper-core
 go get github.com/opinionated/scheduler
 go get github.com/opinionated/utils
-go get github.com/opinionated/analyzer-core/analyzer
-go get github.com/opinionated/analyzer-core/alchemy
-go get github.com/opinionated/pipeline/pipeline
+go get github.com/opinionated/analyzer-core
+go get github.com/opinionated/pipeline
 
 # get all the dependancies
-go get github.com/golang/mock/mockgen
-go get github.com/golang/mock/gomock
-
 go get golang.org/x/net/html
 

@@ -30,4 +30,5 @@ src/*
 
 # ignore swp files from vim
 *.swp
+*.py*
 
