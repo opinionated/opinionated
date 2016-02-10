@@ -1,47 +1,18 @@
-TODO
-=========
-Check repo specific issues for more detailed / up to date TODO lists
-
-scheduler:
-* adjust scheduler timing to space tests better, look more human
-* make logs and error handling  
-* cleanup and documentation
-
-fetcher/scraper:
-* make sneakier scraping requests
-   * send cookies along with scraper
-   * look into packages to fake the browser out (maybe hook into JS, spoof ip etc)
-* make rss add only newly found articles to the scheduler
-* logs and error handling
-* cleanup and documentation
-
-pipeline:
-* decide on final signature
-   * make error channels
-* make test sets
-* cleanup and documentation
-
-top level (this repo):
-* tools to help with git committing without needing to navigate down
-* test scripts to help with integration
-
-
-
 Structure 
 =========
 This repo is the top level repo. Compile, build, run tools etc from this repo. Project code should not be in this repo. 
 
-Each "module" ( >= 1 package) will be a file under this parent repo. Changes to the modules are invisible to this parent repo. 
 
-You can update the modules to the master branch using the updateOpinionated script. If your local copy of that repo is not on the master branch it will not be updated (ie your current code won't get overwritten). You can always do the updates manually with git from inside each module.
-
+updateOpinionated.sh pulls all the go repos
+setup.sh sets the project folder up and clones all the go repos
+setEnvironment.sh sets the environment variables for go (ie $GOPATH). You may need to run this script or append the path manually when your path gets reset (e.g. open a new terminal)
 
 Setup
 =========
 
 To clone repo: git clone https://github.com/opinionated/opinionated
 
-The first time you clone this repo run: . setEnviroment and . setup.sh
+The first time you clone this repo run: . setup.sh
 
 Working with code
 =========

@@ -1,13 +1,13 @@
 # script to update all of the packages in opinionated
 # called using go get
 
-go get -u -f ...config
-go get -u -f ...scheduler
+go get ...config
+go get ...scheduler
 
-go get -u -f ...scraper-core
-go get -u -f ...scraper
-go get -u -f ...fetcher
+go get  ...scraper-core
+go get  ...scraper
+go get  ...fetcher
 
-go get -u -f ...analyzer-core
-go get -u -f ...alchemy
-go get -u -f ...pipeline
+go get  ...analyzer-core
+go get  ...alchemy
+go get  ...pipeline
