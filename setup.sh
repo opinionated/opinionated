@@ -1,3 +1,4 @@
+#!/bin/bash
 # only run this script when you are setting up the repo
 
 . setEnvironment.sh

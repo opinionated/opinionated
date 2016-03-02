@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # updates all the opinionated source code
 # go get shouldn't overwrite a non-master branch,
@@ -7,24 +8,24 @@
 
 
 # from utils
-go get ...config
-go get ...log
+go get .../config
+go get .../log
 
 # from scraper-core
-go get ...scraper-core/scraper
-go get ...scraper-core/net
-go get ...pipeline
+go get .../scraper-core/scraper
+go get .../scraper-core/net
+go get .../pipeline
 
 # from analyzer
-go get ...alchemy
-go get ...analyzer-core/analyzer
+go get .../alchemy
+go get .../analyzer-core/analyzer
 
 # from scheduler
-go get ...scheduler
+go get .../scheduler
 
 # from scrapeServer
-go get ...scrapeServer
+go get .../scrapeServer
 
 # from scrapeClient
-go get ...scrapeClient
+go get .../scrapeClient
 
