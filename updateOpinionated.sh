@@ -8,7 +8,7 @@
 
 
 # from utils
-go get github.com/opinionated/util
+go get github.com/opinionated/utils
 
 # from scraper-core
 go get github.com/opinionated/scraper-core
