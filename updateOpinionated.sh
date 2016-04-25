@@ -1,11 +1,7 @@
 #!/bin/bash
 
 # updates all the opinionated source code
-# go get shouldn't overwrite a non-master branch,
-# but I haven't tested thatgithub.com/opinionatedhis does not get
-# non-go files so you may want to do a git pull
-# in the specific folder 
-
+# need to git pull in your local repos
 
 # from utils
 go get github.com/opinionated/utils
@@ -27,3 +23,5 @@ go get github.com/opinionated/scrapeClient
 
 # articleStore
 go get github.com/opinionated/articleStore
+
+go get github.com/opinionated/debugServer
