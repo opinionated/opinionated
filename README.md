@@ -40,4 +40,7 @@ Work in a develop branch unless you are sure no one else is working on it.
 1) Push your branch to the repo with git push origin (your-name)-develop  
 2) Either merge yourself or message group chat about merging
 
+Abstract
+=========
+Opinionated tackles the issue of biased reporting in journalism, without changing the way in which journalists write. It involves creating a service that is able to collect, score, and display news articles based on their topics and opinions. This service will allow a reader to experience multiple perspectives on an issue without effort or manual cataloging, allowing a reader to avoid heavy influence from biased journalism in one direction of the political spectrum per issue. The service collects articles, and runs them through a modularized pipeline to score them on how close their topics are aligned. These scores are based on various data obtained through tools like IBM Bluemix, Alchemy, and text analysis, and these relationships are stored in a neo-4j graph database for quick access from a desktop and mobile front-end. This service is mostly written in Go-lang, taking advantage of the language’s built-in devices for concurrency and low memory footprint, with a desktop front-end written in HTML and javascript, and both Android and iPhone applications. While journalism is ideally perfectly unbiased, in reality many sources provide a heavily skewed view, yet can still be informative. Opinionated provides a method for reading these kinds of articles, as well as unbiased ones, in a way that reduces journalistic bias.
 
