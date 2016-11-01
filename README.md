@@ -4,7 +4,9 @@ This is this "top level" repo and contains scripts for setting up the opinionate
 
 The code is broken into several different repos (effectively java packages). Each repo should have distinct functionality and be reused by other packages. Try to lump tightly conencted code into one package. 
 
-Organizing the code this way makes merge conflicts less likely but increases the likelyhood of breaking someone else's code. Try not to change structs or functions used by other packages unless you need to.  
+Organizing the code this way makes merge conflicts less likely but increases the likelyhood of breaking someone else's code. Try not to change structs or functions used by other packages unless you need to. 
+
+The other Opinionated repositories can be found [here](https://github.com/opinionated)
 
 Setup
 =========
